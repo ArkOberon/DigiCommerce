@@ -42,7 +42,7 @@ const productSchema = new mongoose.Schema({
         'e-Book',
         'Podcast',
         'Photos',
-        'Digital Art',
+        'Digital-Art',
         'Tutorials',
         'Images'
       ],
@@ -51,7 +51,7 @@ const productSchema = new mongoose.Schema({
   },
   seller: {
     type: String,
-    required: [true, 'Pleaseenter product seller']
+    required: [true, 'Please enter product seller']
   },
   stock: {
     type: Number,
